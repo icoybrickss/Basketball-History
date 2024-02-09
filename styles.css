@@ -1,0 +1,699 @@
+@font-face {
+    font-family: myFont;
+    src: url(Franchise.ttf);
+}
+body{
+    background-color: #1f024c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: max-content; 
+    border: 10px solid;
+    border-image: linear-gradient(to bottom, blueviolet 50%, yellow 50%);
+    border-image-slice: 1;
+}
+header {
+    background-color: #ffc93c;
+    padding: 10px 0; 
+}
+.logo {
+    text-align: center;
+    margin-top: 10px; 
+}
+nav {
+    font-size: 24px; 
+    font-weight: 600;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 15px; 
+}
+.photo1 {
+    position: relative;
+    text-align: center;
+}
+.photo1 img {
+    width: 100%;
+    height: 90%;
+}
+.photo1 h2 {
+    position: absolute;
+    padding-bottom: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+font-size: 80px;}
+@media (max-width: 768px) {}
+    .photo1 h2 {
+        font-size: 60px; 
+        padding-bottom: 15%;}
+.definition{
+    font-size: 38px;
+    border-style: solid;
+    border-color: #ffb700;
+    color: #ffb700; 
+    text-shadow: 
+        -1px -1px 0 #45056e,  
+        1px -1px 0 #45056e,
+        -1px 1px 0 #45056e,
+        1px 1px 0 #45056e;
+
+}
+.def {
+    text-align: justify;
+    font-size: 20px;
+}
+.history {
+font-size: 38px;
+border-style: solid;
+border-color: #ffc93c;
+color: #ffc93c;
+}
+.history h2 {
+    text-shadow: 
+        -1px -1px 0 #ff0707,  
+        1px -1px 0 #ff0707,
+        -1px 1px 0 #ff0707,
+        1px 1px 0 #ff0707;
+}
+.his{
+    text-align: justify;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.history .basket {
+    float: right;
+    margin: 10px 0 10px 20px; 
+    max-width: 100%; 
+}
+.history p.his {
+    font-size: 20px;
+    white-space: pre-wrap;
+    text-align: justify;
+}
+.logo h1 {
+    color: blueviolet;
+}
+.photo1 h2 {
+font-family: myFont;
+color: rgb(255, 183, 0);
+font-size: 120px;
+position: absolute;
+letter-spacing: 6px;
+text-shadow: 
+        -3px -1px 0 #45056e,  
+        -3px -1px 0 #45056e,
+        -3px 1px 0 #45056e,
+        3px 1px 0 #45056e;
+} 
+@media only screen and (max-width: 600px) {
+    .photo1 h2{
+        font-size: 40px; 
+    }
+}
+
+/*     *//*     *//*     *//*     *//*     *//*     *//*     */
+.photo2 {
+position: relative;
+text-align: center;
+}
+.photo2 img {
+width: 100%;
+height: auto;
+}
+.photo2 .tContainer {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;  
+}
+.photo2 h2.resp,
+.photo2 h2.rule {
+margin: 10px 0; 
+text-align: center;
+text-shadow: 
+        -1px -1px 0 #ffffff,  
+        1px -1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px 1px 0 #ffffff;
+}
+.photo2 h2.resp {
+font-size: 90px;
+margin-bottom: 10px; 
+color: rgb(19, 19, 151);
+}
+.photo2 h2.rule {
+font-size: 120px; 
+margin-top: 10px;
+font-family: myFont;
+color: rgb(19, 19, 151);
+}
+@media only screen and (max-width: 600px) {
+.photo2 h2.resp {
+        font-size: 18px;
+}
+.photo2 h2.rule {
+        font-size: 24px;
+}
+}
+.page2 {
+background-color: #1f024c;
+text-align: center;
+margin: 0;
+padding: 0;
+height: 100%; 
+border: 10px solid;
+border-image: linear-gradient(to bottom, blueviolet 50%, yellow 50%);
+border-image-slice: 1;
+}
+hr {color: #ffc93c;}
+.Rules { 
+text-align: justify;
+background-color: #00204a;
+color: #fdb44b;
+font-size: 20px;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+.Rules h1 {
+    font-size: 40px;
+    padding-left: 40px;
+    color: #fdb44b;
+}
+.offense {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+    background-color: #005792;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: orange;
+}
+.defense {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 60px;
+    font-size: 20px;
+    background-color: #00bbf0;
+    padding-bottom: 15px;
+padding-top: 15px;
+}
+.everyone {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 60px;
+    font-size: 20px;
+    background-color: #fdb44b;
+    padding-bottom: 15px;
+padding-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+color: #00204a;
+} 
+.court {
+    background-color: #e47676;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 15px;
+padding-top: 15px;
+}
+
+/*     *//*     *//*     *//*     *//*     *//*     *//*     *//*     */
+
+
+.photo3 {
+    position: relative;
+    text-align: center;
+    font-family: myFont;
+}
+.photo3 img {
+    width: 100%;
+    height: 90%;
+}
+.photo3 h2 {
+    position: absolute;
+    padding-bottom: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    margin: 20;
+    font-size: 100px;
+    letter-spacing: 9px;
+    text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
+}
+@media only screen and (max-width: 600px) {
+    .photo3 h2 {
+        font-size: 50px; 
+        letter-spacing: 5px; 
+        margin: 10px; 
+    }
+}
+.page3 {
+    background-color: #1f024c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100; 
+    border: 10px solid;
+    border-image: linear-gradient(to bottom, blueviolet 50%, yellow 50%);
+    border-image-slice: 1;
+}
+.float p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffc93c;
+}
+.float .left {
+    align-items: left;
+}
+.health {text-align: left;
+padding-left: 20px;
+padding-right: 40;}
+
+.other {text-align: left;
+    padding-left: 20px;
+    padding-right: 40;}
+
+.start {text-align: left;
+    padding-left: 20px;
+    padding-right: 40;}
+
+.bAndC {text-align: left;
+    padding-left: 20px;
+    padding-right: 40;}
+
+.tips {text-align: left;
+    padding-left: 20px;
+    padding-right: 40;}
+
+.disad {text-align: left;
+    padding-left: 20px;
+    padding-right: 40;}
+.health h2, .start h2, .bAndC h2, .tips h2, .disad h2, .other h2 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffb700;
+}
+.health p, .start p, .bAndC p, .tips p, .disad p, .other p {
+    color: #ffb700;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.health ul, .start ul, .tips ul, .disad p, .other ol {
+    color: #ffb700;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tips h6 {
+    font-size: 10px;
+    color: #ffb700;
+} .start h4{ color: #ffb700;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;}
+
+/*     *//*     *//*     *//*     *//*     *//*     *//*     *//*     */
+
+.page4 {
+    background-color: #1f024c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100; 
+    border: 10px solid;
+    border-image: linear-gradient(to bottom, blueviolet 50%, yellow 50%);
+    border-image-slice: 1;
+}
+.ref {
+    border: #005792 solid;
+    color: #00bbf0;
+    font-size: 60px;
+    border-width: 8px;
+}
+.refss {
+    border:  #00bbf0 solid;
+    border-radius:  12;
+    border-width: 10px;
+}
+.links {
+    font-size: 25px;
+    color: #fdb44b;
+    text-align: left;
+    position: relative;
+    padding-left: 15px;
+}
+.links a:visited {
+    color: yellow; 
+}
+.contact {
+    color: yellow;
+}
+
+.iFrame {
+    border-style: solid;
+    border-color: #ffb700;
+    color: #ffb700; 
+}
+
+/*     *//*     *//*     *//*     *//*     *//*     *//*     *//*     */
+
+.table1 {
+    width: 80%;
+    border: 2px yellow solid;
+    color:rgb(255, 183, 0);
+    text-align: center;
+    justify-content: center;
+    
+    font-size: 30px;
+}
+.table1, table, th, td {
+    width: 100%;
+    border: 2px yellow solid;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, rgb(10, 10, 145), 0.5);
+} 
+.table1 th, .table1 td {
+    width: 25%; 
+    padding-bottom: 20px;
+}
+.table1 td a {
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 400;
+}
+.table1 td a:link {
+    color: white;
+}
+.table1 td a:visited {
+color: #ffc93c;
+}
+.table1 td a:hover{
+color: #ff0707;
+}
+.page6 {
+    background-color: #280361;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100; 
+    border: 10px solid;
+    border-image: linear-gradient(to bottom, blueviolet 50%, yellow 50%);
+    border-image-slice: 1;
+}
+th, td {
+    border: 2px solid yellow;
+    padding: 10px; 
+}
+.table1 th {
+    font-size: 70px;
+}
+.table1 img {
+    padding-top: 5px;
+}
+@media only screen and (max-width: 600px) {
+.table1 table {
+        width: 100%;
+}
+.table1 th, .table1 td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+}
+.table1 th {
+    text-align: center;
+}
+}
+.table1 p {
+    font-size: 15px;
+    color: red;
+    opacity: 50px;
+}
+.gallery {
+    width: 80%;
+    border: 2px yellow solid;
+    color:rgb(255, 183, 0);
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.gallery, table, th, td {
+    width: 100%;
+    border: 2px rgb(131, 131, 60)5, 145, 0) solid;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, rgb(10, 10, 145), 0.5);
+} 
+.gallery th, .gallery td {
+    width: 20%; 
+}
+th, td {
+    border: 2px solid yellow;
+    padding: 10px; 
+}
+.gallery tr {
+    background-color: rgb(175, 114, 0);
+    border-radius: 10px;
+}
+.gallery img {
+    height: 100px;
+    width: 100px;
+}
+.gallery table th td{
+    border-style: none;
+    border: none;
+}
+.gallery table th {
+    color: #15ccff;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media only screen and (max-width: 500px) {
+.gallery table {
+    width: 100%;
+}
+.gallery th, .gallery td {
+   display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+}
+.iFrame h2 {
+    text-decoration: underline;
+    font-size: 40px;
+}
+.iFrame p {
+    text-decoration: wavy;
+    color: #ffc93c;
+    font-size: 20px;  
+}
+.iFrame {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+  p a {
+    color: yellow;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+  }
+  p a:visited {
+    color: yellow; 
+  }
+  p a:hover {
+    color: orange; 
+  }
+  .fix {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .alt {
+    width: 100%;
+    table-layout: fixed;
+  }
+  .alt td {
+    width: 50%; 
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .alt iframe {
+    width: 100%;
+  }
+.table1 table {
+    background-color: rgb(105, 102, 102);
+}
+@media only screen and (max-width: 600px) {
+.loc iframe {
+    height: 300px; 
+}
+}
+
+.stars h1 {
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: red 2px;
+    text-decoration-line: underline;
+}
+.player {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 30rem;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.Splayers img {
+    display: block;
+    transition: all 0.4s;
+    width: 100%;
+    height: auto;
+}
+.Splayers img:hover {
+    transform: scale(1.5);
+    filter: saturate(3);
+}
+.gallery {
+    overflow: hidden;
+}
+
+.player .Splayers figcaption {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .player {
+        grid-template-columns: 0.8fr; 
+        max-width: 90%; 
+        }
+    .Splayers img {
+        width: 90%; 
+    }
+    }
+.stars p {
+    color: red;
+    font-size: 15px;
+    padding-top: -10px;
+}
+.nba img {
+    height: 250px; 
+    width: 400px;
+    padding-top: 20px;
+}
+.nba i {
+    color: rgb(79, 79, 241);
+}
+.nba p {
+    color: white;
+    font-size: 30px;
+    gap: 10;
+}
+
+/*     *//*     *//*     *//*     */
+.facts {
+    text-align: left;
+    padding-left: 30px;
+    color: yellow;
+}
+
+.fcts table {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+table.fcts {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  table.fcts th,
+  table.fcts td {
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: #f0f0f0;
+  }
+  table.fcts th {
+  }
+  table.fcts td {
+    border: 1px solid #ddd;
+  }
+  @media only screen and (max-width: 600px) {
+table.fcts {
+  width: 100%;
+  overflow-x: auto;
+}
+  }
+
+table.fcts th:first-child th {
+    font-size: 40px; 
+}
+
+ .fcts tr:hover {
+    background-color: #4cfcfc;
+}
+.fcts .type {
+    font-size: 50px;
+    font-weight: 400;
+}
+/*     *//*     *//*     *//*     */
+.threes table {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+table.threes {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  table.threes th,
+  table.threes td {
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    background-color: #f0f0f0;
+  }
+  table.threes th {
+  }
+  table.threes td {
+    border: 1px solid #ddd;
+  }
+  @media only screen and (max-width: 600px) {
+table.threes {
+  width: 100%;
+  overflow-x: auto;
+}
+  }
+
+table.threes th:first-child th {
+    font-size: 40px; 
+}
+
+ .threes tr:hover {
+    background-color: #4cfcfc;
+}
+.threes .type {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
